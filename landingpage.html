@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PromoPilot — 프로모션 ROI 리포트</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="POS/예약 CSV만으로 사전 ROI 카드·가드레일·1장 리포트 제공" />
+  <style>
+    /* smooth scroll */
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-white via-slate-50 to-white text-slate-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b border-slate-200/60">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <a href="#" class="flex items-center gap-2">
+          <div class="h-8 w-8 rounded-xl bg-slate-900 text-white grid place-items-center font-bold">P</div>
+          <span class="font-semibold">PromoPilot</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#features" class="hover:text-slate-700">특장점</a>
+          <a href="#how" class="hover:text-slate-700">동작 원리</a>
+          <a href="#pricing" class="hover:text-slate-700">요금</a>
+          <a href="#faq" class="hover:text-slate-700">FAQ</a>
+        </nav>
+        <div class="flex items-center gap-3">
+          <a href="#pricing" class="text-sm">요금</a>
+          <a href="#cta" class="inline-flex items-center rounded-xl bg-slate-900 px-4 py-2 text-white text-sm shadow-sm hover:bg-slate-800">데모 요청</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs text-slate-600 border-slate-200 bg-white">
+            <span class="inline-block h-2 w-2 rounded-full bg-emerald-500"></span> 파일럿 모집 중
+          </div>
+          <h1 class="mt-5 text-4xl sm:text-5xl font-extrabold tracking-tight">
+            “할인은 해야 하는데… <span class="text-slate-500">얼마나 해야 남는지</span> 모르겠어요.”
+          </h1>
+          <p class="mt-4 text-lg text-slate-600">
+            POS/예약 CSV만 주시면, 이번 프로모션의 <b>예상 증분마진</b>과 <b>권장 캘린더</b>를 1장으로 드립니다.
+            Floor/MaxDisc 가드레일로 손실을 방지하세요.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#cta" class="inline-flex items-center rounded-xl bg-emerald-600 px-5 py-3 text-white font-medium shadow hover:bg-emerald-500">1장 ROI 리포트 받아보기</a>
+            <a href="#how" class="inline-flex items-center rounded-xl border px-5 py-3 font-medium bg-white hover:bg-slate-50">어떻게 작동하나요?</a>
+          </div>
+          <p class="mt-3 text-xs text-slate-500">* 20분 셋업 · 빈슬롯/폐기 20–30% 감소 목표</p>
+        </div>
+        <div class="relative">
+          <div class="aspect-[4/3] rounded-2xl border bg-white shadow-sm grid place-items-center text-slate-400">
+            <div class="text-center p-6">
+              <p class="font-semibold">ROI 카드 미리보기</p>
+              <p class="mt-2 text-sm">증분매출·증분마진 · 위험도 · 권장 템플릿</p>
+              <div class="mt-5 grid grid-cols-2 gap-3 text-left text-xs">
+                <div class="rounded-lg border p-3"><p class="font-semibold">타임세일(우천/한산)</p><p class="mt-1">예상 마진 +12% · 위험도 낮음</p></div>
+                <div class="rounded-lg border p-3"><p class="font-semibold">번들(옵션증정)</p><p class="mt-1">예상 마진 +9% · 위험도 중간</p></div>
+                <div class="rounded-lg border p-3"><p class="font-semibold">신규 유입 쿠폰</p><p class="mt-1">예상 마진 +6% · 위험도 중간</p></div>
+                <div class="rounded-lg border p-3"><p class="font-semibold">폐기 저감 번들</p><p class="mt-1">폐기 -25% · 위험도 낮음</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Logos -->
+  <section class="py-10">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <p class="text-center text-xs uppercase tracking-wider text-slate-500">초기 고객군 / 파트너</p>
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-6 opacity-60">
+        <div class="h-10 rounded-md border bg-white grid place-items-center text-slate-400">LOGO</div>
+        <div class="h-10 rounded-md border bg-white grid place-items-center text-slate-400">LOGO</div>
+        <div class="h-10 rounded-md border bg-white grid place-items-center text-slate-400">LOGO</div>
+        <div class="h-10 rounded-md border bg-white grid place-items-center text-slate-400">LOGO</div>
+        <div class="h-10 rounded-md border bg-white grid place-items-center text-slate-400">LOGO</div>
+        <div class="h-10 rounded-md border bg-white grid place-items-center text-slate-400">LOGO</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pain & Value -->
+  <section class="py-16" id="features">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="rounded-2xl border bg-white p-6">
+          <h3 class="text-xl font-semibold">이런 문제가 있다면…</h3>
+          <ul class="mt-4 space-y-2 text-slate-600">
+            <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-rose-500"></span> 얼마까지 깎아도 손해 아닌지 모름</li>
+            <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-rose-500"></span> 데이터 합치기/사후분석에 시간 과다</li>
+            <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-rose-500"></span> 날씨·휴일·동시행사로 효과 판단 애매</li>
+            <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-rose-500"></span> 브랜드 훼손과 가격 앵커 붕괴가 걱정</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border bg-white p-6">
+          <h3 class="text-xl font-semibold">우리가 주는 가치</h3>
+          <ul class="mt-4 space-y-2 text-slate-600">
+            <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-emerald-500"></span> 사전 ROI 카드</li>
+            <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-emerald-500"></span> Floor/MaxDisc 가드레일</li>
+            <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-emerald-500"></span> CSV 자동 매핑·정합성 검사</li>
+            <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-emerald-500"></span> 1장 결과 리포트 + 학습형 캘린더</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features grid -->
+  <section class="py-8">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- 카드 반복 예시 6개 -->
+        <div class="rounded-2xl border bg-white p-6">
+          <div class="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 text-white">ROI</div>
+          <h4 class="text-lg font-semibold">사전 ROI 카드</h4>
+          <p class="mt-1 text-slate-600 text-sm">예상 증분매출·마진과 위험도를 1장으로 미리 확인.</p>
+        </div>
+        <div class="rounded-2xl border bg-white p-6">
+          <div class="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 text-white">G</div>
+          <h4 class="text-lg font-semibold">안전 가드레일</h4>
+          <p class="mt-1 text-slate-600 text-sm">가격 하한(Floor), 최대 할인율 자동 계산.</p>
+        </div>
+        <div class="rounded-2xl border bg-white p-6">
+          <div class="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 text-white">CSV</div>
+          <h4 class="text-lg font-semibold">CSV 온보딩 30분</h4>
+          <p class="mt-1 text-slate-600 text-sm">POS/예약 CSV 업로드 → 자동 매핑/정합성 검사.</p>
+        </div>
+        <div class="rounded-2xl border bg-white p-6">
+          <div class="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 text-white">CAL</div>
+          <h4 class="text-lg font-semibold">학습형 캘린더</h4>
+          <p class="mt-1 text-slate-600 text-sm">다음 달 권장 요일·주차·카테고리 조합을 제안.</p>
+        </div>
+        <div class="rounded-2xl border bg-white p-6">
+          <div class="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 text-white">1P</div>
+          <h4 class="text-lg font-semibold">1장 결과 리포트</h4>
+          <p class="mt-1 text-slate-600 text-sm">반사실 대비 증분마진을 보수적으로 추정.</p>
+        </div>
+        <div class="rounded-2xl border bg-white p-6">
+          <div class="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 text-white">TMP</div>
+          <h4 class="text-lg font-semibold">템플릿 실행</h4>
+          <p class="mt-1 text-slate-600 text-sm">타임세일/번들을 업종별 템플릿으로 빠르게 실행.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" class="py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <h3 class="text-2xl font-bold">어떻게 작동하나요?</h3>
+      <div class="mt-8 grid md:grid-cols-4 gap-6">
+        <div class="rounded-2xl border bg-white p-6"><div class="text-xs text-slate-500">STEP 1</div><h4 class="mt-1 font-semibold">CSV 업로드</h4><p class="mt-1 text-sm text-slate-600">POS/예약 CSV 자동 매핑/검증.</p></div>
+        <div class="rounded-2xl border bg-white p-6"><div class="text-xs text-slate-500">STEP 2</div><h4 class="mt-1 font-semibold">템플릿 선택</h4><p class="mt-1 text-sm text-slate-600">타임세일·번들·쿠폰 제안.</p></div>
+        <div class="rounded-2xl border bg-white p-6"><div class="text-xs text-slate-500">STEP 3</div><h4 class="mt-1 font-semibold">ROI 미리보기</h4><p class="mt-1 text-sm text-slate-600">증분매출·마진과 위험도 확인.</p></div>
+        <div class="rounded-2xl border bg-white p-6"><div class="text-xs text-slate-500">STEP 4</div><h4 class="mt-1 font-semibold">실행·검증</h4><p class="mt-1 text-sm text-slate-600">1장 리포트 + 다음 달 캘린더.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <h3 class="text-2xl font-bold text-center">요금제</h3>
+      <p class="mt-2 text-center text-slate-600">명확한 성과 확인 전에는 가볍게 시작하세요.</p>
+      <div class="mt-8 grid md:grid-cols-4 gap-6">
+        <!-- Starter -->
+        <div class="rounded-2xl border bg-white p-6">
+          <div class="flex items-baseline justify-between"><h4 class="text-lg font-semibold">Starter</h4><span class="text-xs text-slate-500">초기 테스트용</span></div>
+          <div class="mt-2 text-3xl font-extrabold">₩39,000</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-600">
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> ROI 카드</li>
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> 기본 템플릿</li>
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> 월 1개 리포트</li>
+          </ul>
+          <a href="#cta" class="mt-6 inline-flex w-full items-center justify-center rounded-xl border px-4 py-2 font-medium hover:bg-slate-50">시작하기</a>
+        </div>
+        <!-- Standard -->
+        <div class="rounded-2xl border bg-white p-6 ring-2 ring-emerald-500">
+          <div class="flex items-baseline justify-between"><h4 class="text-lg font-semibold">Standard</h4><span class="text-xs text-slate-500">가성비</span></div>
+          <div class="mt-2 text-3xl font-extrabold">₩79,000</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-600">
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> ROI 카드</li>
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> 가드레일(Floor/MaxDisc)</li>
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> 월 3개 리포트</li>
+          </ul>
+          <a href="#cta" class="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-emerald-600 px-4 py-2 font-medium text-white hover:bg-emerald-500">선택</a>
+        </div>
+        <!-- Pro -->
+        <div class="rounded-2xl border bg-white p-6">
+          <div class="flex items-baseline justify-between"><h4 class="text-lg font-semibold">Pro</h4><span class="text-xs text-slate-500">추천</span></div>
+          <div class="mt-2 text-3xl font-extrabold">₩129,000</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-600">
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> ROI+캘린더</li>
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> 날씨·휴일 보정</li>
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> 무제한 리포트</li>
+          </ul>
+          <a href="#cta" class="mt-6 inline-flex w-full items-center justify-center rounded-xl border px-4 py-2 font-medium hover:bg-slate-50">시작하기</a>
+        </div>
+        <!-- Business -->
+        <div class="rounded-2xl border bg-white p-6">
+          <div class="flex items-baseline justify-between"><h4 class="text-lg font-semibold">Business</h4><span class="text-xs text-slate-500">멀티 지점/대행사</span></div>
+          <div class="mt-2 text-3xl font-extrabold">₩199,000+</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-600">
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> 계정 권한</li>
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> API/POS 연동</li>
+            <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> 전담 지원</li>
+          </ul>
+          <a href="#cta" class="mt-6 inline-flex w-full items-center justify-center rounded-xl border px-4 py-2 font-medium hover:bg-slate-50">상담하기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Form -->
+  <section id="cta" class="py-16">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+      <div class="rounded-2xl border bg-white p-8">
+        <h3 class="text-xl font-semibold">CSV 2개만 주시면, 1장 ROI 리포트를 드립니다.</h3>
+        <p class="mt-1 text-slate-600 text-sm">맞으면 다음 달 권장 캘린더까지 제공합니다. 2주 파일럿 참여를 체크해 주세요.</p>
+        <form class="mt-6 grid gap-4 md:grid-cols-2" onsubmit="event.preventDefault(); alert('제출 완료!');">
+          <input class="rounded-xl border px-4 py-3 outline-none focus:ring-2 focus:ring-emerald-500" placeholder="업종 (예: 카페/헤어/PT)" />
+          <input class="rounded-xl border px-4 py-3 outline-none focus:ring-2 focus:ring-emerald-500" placeholder="월매출 구간 (선택)" />
+          <input class="rounded-xl border px-4 py-3 outline-none focus:ring-2 focus:ring-emerald-500 md:col-span-2" placeholder="이메일 또는 연락처" />
+          <label class="flex items-center gap-2 text-sm text-slate-600 md:col-span-2">
+            <input type="checkbox" class="h-4 w-4" /> 2주 파일럿 참여에 관심 있음
+          </label>
+          <div class="md:col-span-2 flex items-center gap-3">
+            <button class="inline-flex items-center rounded-xl bg-slate-900 px-5 py-3 text-white font-medium hover:bg-slate-800" type="submit">데모 요청</button>
+            <a href="#" class="text-sm text-slate-600 hover:text-slate-800">또는 설문 작성하기</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+      <h3 class="text-2xl font-bold text-center">자주 묻는 질문</h3>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <div class="rounded-2xl border bg-white p-6"><p class="font-semibold">우리 가게에 맞을까요?</p><p class="mt-1 text-slate-600 text-sm leading-6">오픈/리뉴얼 1년 내 F&B/미용/피트니스에서 효과가 가장 큽니다. 빈슬롯·폐기 감소가 핵심 지표입니다.</p></div>
+        <div class="rounded-2xl border bg-white p-6"><p class="font-semibold">데이터 준비가 복잡하지 않나요?</p><p class="mt-1 text-slate-600 text-sm leading-6">POS/예약 CSV 1~2개만으로 시작합니다. 원가·할인이 분리되지 않아도 구간/룰로 추산합니다.</p></div>
+        <div class="rounded-2xl border bg-white p-6"><p class="font-semibold">정말 이익이 늘었는지 어떻게 증명하나요?</p><p class="mt-1 text-slate-600 text-sm leading-6">베이스라인+DiD 방식으로 반사실 대비 증분마진을 보수적으로 추정해 1장 리포트로 제공합니다.</p></div>
+        <div class="rounded-2xl border bg-white p-6"><p class="font-semibold">가격은 고정인가요?</p><p class="mt-1 text-slate-600 text-sm leading-6">명확한 성과가 확인되면 상향 옵션을 제안드리지만, 초기에는 월 3.9~12.9만 구간을 권장합니다.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t bg-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-2">
+          <div class="h-8 w-8 rounded-xl bg-slate-900 text-white grid place-items-center font-bold">P</div>
+          <span class="font-semibold">PromoPilot</span>
+        </div>
+        <p class="text-sm text-slate-500">© <span id="year"></span> PromoPilot. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <a href="#cta" class="fixed bottom-6 right-6 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-5 py-3 text-white shadow-lg hover:bg-emerald-500">
+    <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 5v14M5 12h14"/></svg>
+    무료 데모 신청
+  </a>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
